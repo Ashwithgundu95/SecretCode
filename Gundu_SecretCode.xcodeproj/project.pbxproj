@@ -14,6 +14,7 @@
 		F8149DB52045C70B0006E5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8149DB32045C70B0006E5F8 /* LaunchScreen.storyboard */; };
 		F8149DC02045C70C0006E5F8 /* Gundu_SecretCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DBF2045C70C0006E5F8 /* Gundu_SecretCodeTests.swift */; };
 		F8149DCB2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DCA2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift */; };
+		F8149DD92045C74E0006E5F8 /* CodeWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DD82045C74E0006E5F8 /* CodeWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F8149DC62045C70C0006E5F8 /* Gundu_SecretCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gundu_SecretCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8149DCA2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gundu_SecretCodeUITests.swift; sourceTree = "<group>"; };
 		F8149DCC2045C70C0006E5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8149DD82045C74E0006E5F8 /* CodeWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F8149DAA2045C70B0006E5F8 /* AppDelegate.swift */,
 				F8149DAC2045C70B0006E5F8 /* ViewController.swift */,
+				F8149DD82045C74E0006E5F8 /* CodeWord.swift */,
 				F8149DAE2045C70B0006E5F8 /* Main.storyboard */,
 				F8149DB12045C70B0006E5F8 /* Assets.xcassets */,
 				F8149DB32045C70B0006E5F8 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				F8149DAD2045C70B0006E5F8 /* ViewController.swift in Sources */,
 				F8149DAB2045C70B0006E5F8 /* AppDelegate.swift in Sources */,
+				F8149DD92045C74E0006E5F8 /* CodeWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
