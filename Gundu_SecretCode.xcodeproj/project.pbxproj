@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8149DAB2045C70B0006E5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DAA2045C70B0006E5F8 /* AppDelegate.swift */; };
+		F8149DAD2045C70B0006E5F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DAC2045C70B0006E5F8 /* ViewController.swift */; };
+		F8149DB02045C70B0006E5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8149DAE2045C70B0006E5F8 /* Main.storyboard */; };
+		F8149DB22045C70B0006E5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8149DB12045C70B0006E5F8 /* Assets.xcassets */; };
+		F8149DB52045C70B0006E5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8149DB32045C70B0006E5F8 /* LaunchScreen.storyboard */; };
+		F8149DC02045C70C0006E5F8 /* Gundu_SecretCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DBF2045C70C0006E5F8 /* Gundu_SecretCodeTests.swift */; };
+		F8149DCB2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8149DCA2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8149DBC2045C70C0006E5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8149D9F2045C70B0006E5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8149DA62045C70B0006E5F8;
+			remoteInfo = Gundu_SecretCode;
+		};
+		F8149DC72045C70C0006E5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8149D9F2045C70B0006E5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8149DA62045C70B0006E5F8;
+			remoteInfo = Gundu_SecretCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8149DA72045C70B0006E5F8 /* Gundu_SecretCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gundu_SecretCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8149DAA2045C70B0006E5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8149DAC2045C70B0006E5F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8149DAF2045C70B0006E5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8149DB12045C70B0006E5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8149DB42045C70B0006E5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8149DB62045C70B0006E5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8149DBB2045C70C0006E5F8 /* Gundu_SecretCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gundu_SecretCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8149DBF2045C70C0006E5F8 /* Gundu_SecretCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gundu_SecretCodeTests.swift; sourceTree = "<group>"; };
+		F8149DC12045C70C0006E5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8149DC62045C70C0006E5F8 /* Gundu_SecretCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gundu_SecretCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8149DCA2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gundu_SecretCodeUITests.swift; sourceTree = "<group>"; };
+		F8149DCC2045C70C0006E5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8149DA42045C70B0006E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DB82045C70C0006E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DC32045C70C0006E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8149D9E2045C70B0006E5F8 = {
+			isa = PBXGroup;
+			children = (
+				F8149DA92045C70B0006E5F8 /* Gundu_SecretCode */,
+				F8149DBE2045C70C0006E5F8 /* Gundu_SecretCodeTests */,
+				F8149DC92045C70C0006E5F8 /* Gundu_SecretCodeUITests */,
+				F8149DA82045C70B0006E5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8149DA82045C70B0006E5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8149DA72045C70B0006E5F8 /* Gundu_SecretCode.app */,
+				F8149DBB2045C70C0006E5F8 /* Gundu_SecretCodeTests.xctest */,
+				F8149DC62045C70C0006E5F8 /* Gundu_SecretCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8149DA92045C70B0006E5F8 /* Gundu_SecretCode */ = {
+			isa = PBXGroup;
+			children = (
+				F8149DAA2045C70B0006E5F8 /* AppDelegate.swift */,
+				F8149DAC2045C70B0006E5F8 /* ViewController.swift */,
+				F8149DAE2045C70B0006E5F8 /* Main.storyboard */,
+				F8149DB12045C70B0006E5F8 /* Assets.xcassets */,
+				F8149DB32045C70B0006E5F8 /* LaunchScreen.storyboard */,
+				F8149DB62045C70B0006E5F8 /* Info.plist */,
+			);
+			path = Gundu_SecretCode;
+			sourceTree = "<group>";
+		};
+		F8149DBE2045C70C0006E5F8 /* Gundu_SecretCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8149DBF2045C70C0006E5F8 /* Gundu_SecretCodeTests.swift */,
+				F8149DC12045C70C0006E5F8 /* Info.plist */,
+			);
+			path = Gundu_SecretCodeTests;
+			sourceTree = "<group>";
+		};
+		F8149DC92045C70C0006E5F8 /* Gundu_SecretCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8149DCA2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift */,
+				F8149DCC2045C70C0006E5F8 /* Info.plist */,
+			);
+			path = Gundu_SecretCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8149DA62045C70B0006E5F8 /* Gundu_SecretCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8149DCF2045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCode" */;
+			buildPhases = (
+				F8149DA32045C70B0006E5F8 /* Sources */,
+				F8149DA42045C70B0006E5F8 /* Frameworks */,
+				F8149DA52045C70B0006E5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gundu_SecretCode;
+			productName = Gundu_SecretCode;
+			productReference = F8149DA72045C70B0006E5F8 /* Gundu_SecretCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8149DBA2045C70C0006E5F8 /* Gundu_SecretCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8149DD22045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCodeTests" */;
+			buildPhases = (
+				F8149DB72045C70C0006E5F8 /* Sources */,
+				F8149DB82045C70C0006E5F8 /* Frameworks */,
+				F8149DB92045C70C0006E5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8149DBD2045C70C0006E5F8 /* PBXTargetDependency */,
+			);
+			name = Gundu_SecretCodeTests;
+			productName = Gundu_SecretCodeTests;
+			productReference = F8149DBB2045C70C0006E5F8 /* Gundu_SecretCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8149DC52045C70C0006E5F8 /* Gundu_SecretCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8149DD52045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCodeUITests" */;
+			buildPhases = (
+				F8149DC22045C70C0006E5F8 /* Sources */,
+				F8149DC32045C70C0006E5F8 /* Frameworks */,
+				F8149DC42045C70C0006E5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8149DC82045C70C0006E5F8 /* PBXTargetDependency */,
+			);
+			name = Gundu_SecretCodeUITests;
+			productName = Gundu_SecretCodeUITests;
+			productReference = F8149DC62045C70C0006E5F8 /* Gundu_SecretCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8149D9F2045C70B0006E5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gundu,Ashwith";
+				TargetAttributes = {
+					F8149DA62045C70B0006E5F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F8149DBA2045C70C0006E5F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8149DA62045C70B0006E5F8;
+					};
+					F8149DC52045C70C0006E5F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8149DA62045C70B0006E5F8;
+					};
+				};
+			};
+			buildConfigurationList = F8149DA22045C70B0006E5F8 /* Build configuration list for PBXProject "Gundu_SecretCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8149D9E2045C70B0006E5F8;
+			productRefGroup = F8149DA82045C70B0006E5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8149DA62045C70B0006E5F8 /* Gundu_SecretCode */,
+				F8149DBA2045C70C0006E5F8 /* Gundu_SecretCodeTests */,
+				F8149DC52045C70C0006E5F8 /* Gundu_SecretCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8149DA52045C70B0006E5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8149DB52045C70B0006E5F8 /* LaunchScreen.storyboard in Resources */,
+				F8149DB22045C70B0006E5F8 /* Assets.xcassets in Resources */,
+				F8149DB02045C70B0006E5F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DB92045C70C0006E5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DC42045C70C0006E5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8149DA32045C70B0006E5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8149DAD2045C70B0006E5F8 /* ViewController.swift in Sources */,
+				F8149DAB2045C70B0006E5F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DB72045C70C0006E5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8149DC02045C70C0006E5F8 /* Gundu_SecretCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8149DC22045C70C0006E5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8149DCB2045C70C0006E5F8 /* Gundu_SecretCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8149DBD2045C70C0006E5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8149DA62045C70B0006E5F8 /* Gundu_SecretCode */;
+			targetProxy = F8149DBC2045C70C0006E5F8 /* PBXContainerItemProxy */;
+		};
+		F8149DC82045C70C0006E5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8149DA62045C70B0006E5F8 /* Gundu_SecretCode */;
+			targetProxy = F8149DC72045C70C0006E5F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8149DAE2045C70B0006E5F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8149DAF2045C70B0006E5F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8149DB32045C70B0006E5F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8149DB42045C70B0006E5F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8149DCD2045C70C0006E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8149DCE2045C70C0006E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8149DD02045C70C0006E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8149DD12045C70C0006E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8149DD32045C70C0006E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gundu_SecretCode.app/Gundu_SecretCode";
+			};
+			name = Debug;
+		};
+		F8149DD42045C70C0006E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gundu_SecretCode.app/Gundu_SecretCode";
+			};
+			name = Release;
+		};
+		F8149DD62045C70C0006E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gundu_SecretCode;
+			};
+			name = Debug;
+		};
+		F8149DD72045C70C0006E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gundu_SecretCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gundu.Gundu-SecretCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gundu_SecretCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8149DA22045C70B0006E5F8 /* Build configuration list for PBXProject "Gundu_SecretCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8149DCD2045C70C0006E5F8 /* Debug */,
+				F8149DCE2045C70C0006E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8149DCF2045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8149DD02045C70C0006E5F8 /* Debug */,
+				F8149DD12045C70C0006E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8149DD22045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8149DD32045C70C0006E5F8 /* Debug */,
+				F8149DD42045C70C0006E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8149DD52045C70C0006E5F8 /* Build configuration list for PBXNativeTarget "Gundu_SecretCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8149DD62045C70C0006E5F8 /* Debug */,
+				F8149DD72045C70C0006E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8149D9F2045C70B0006E5F8 /* Project object */;
+}
